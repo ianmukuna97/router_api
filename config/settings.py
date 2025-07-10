@@ -124,5 +124,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # === API KEYS ===
-ORS_API_KEY = os.getenv('ORS_API_KEY', 'fallback_if_env_not_set')
+# ORS_API_KEY = os.getenv('ORS_API_KEY', 'fallback_if_env_not_set')
 
